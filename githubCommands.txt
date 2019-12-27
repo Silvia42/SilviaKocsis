@@ -10,15 +10,36 @@ git commit -m "first commit"
 git remote add origin https://github.com/Silvia42/SilviaKocsis.git
 git push -u origin master
 
-
-git remote add origin https://github.com/Silvia42/SilviaKocsis.git
-git push -u origin master
-
-
-
-
+-------------------------------------------
 git status
 git add README.md
 git add githubCommands.txt
 git add notes.txt
+
+git commit -m "first commit"
+
+
+
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+https://help.github.com/en/github/using-git/caching-your-github-password-in-git
+urn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.
+
+    In Terminal, enter the following:
+
+    $ git config --global credential.helper cache
+    # Set git to use the credential memory cache
+
+    To change the default password cache timeout, enter the following:
+
+    $ git config --global credential.helper 'cache --timeout=3600'
+    # Set the cache to timeout after 1 hour (setting is in seconds)
+
 
