@@ -1,0 +1,24 @@
+
+
+https://github.com/Silvia42/SilviaKocsis.git
+
+
+echo "# SilviaKocsis" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Silvia42/SilviaKocsis.git
+git push -u origin master
+
+
+git remote add origin https://github.com/Silvia42/SilviaKocsis.git
+git push -u origin master
+
+
+
+
+git status
+git add README.md
+git add githubCommands.txt
+git add notes.txt
+

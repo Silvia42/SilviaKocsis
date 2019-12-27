@@ -1,0 +1,2 @@
+Gatsby Starter credited to: [Anubhav Srivastava](https://github.com/anubhavsrivastava/gatsby-starter-prologue).
+
